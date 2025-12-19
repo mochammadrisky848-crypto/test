@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>THEDASTUFF</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <h1 class="logo">THEDASTUFF<span>.</span></h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Collection</a>
+            <a href="#">New Arrival</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a class="cta" href="#">Shop Now</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Luxury Jacket<br>Crafted for Identity</h2>
+            <p>Eksklusif. Maskulin. Elegan.</p>
+            <button class="btn-gold">Explore Collection</button>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="product">
+            <img src="assets/jacket.jpg">
+            <div class="info">
+                <h3>windbreaker Jacket vintage</h3>
+                <p>IDR 450.000</p>
+                <div class="actions">
+                    <button onclick="openModal()">View Details</button>
+                    <button class="outline">Shop Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODAL -->
+    <div class="modal" id="productModal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">×</span>
+            <img src="assets/jacket.jpg">
+            <div class="modal-info">
+                <h2>Signature Leather Jacket</h2>
+                <p class="price">IDR 450.000</p>
+                <p class="desc">Jaket vintage dengan desain luxury.</p>
+                <button class="btn-gold">Shop Now</button>
+            </div>
+        </div>
+    </div>
+
+    <a href="https://wa.me/628257647498" class="whatsapp" target="_blank">Chat Stylist</a>
+
+    <script>
+        function openModal() { document.getElementById("productModal").style.display = "flex"; }
+        function closeModal() { document.getElementById("productModal").style.display = "none"; }
+    </script>
+
+</body><!-- MODAL DETAIL PRODUCT -->
+<div class="modal" id="productModal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">×</span>
+        <img src="assets/jacket.jpg">
+        <div class="modal-info">
+            <h2>windbreaker Jacket</h2>
+            <p class="price">IDR 450.000</p>
+            <p class="desc">
+                Jaket kulit premium dengan material full-grain leather,
+                potongan modern maskulin, dan finishing eksklusif.
+            </p>
+            <button class="btn-gold">Shop Now</button>
+        </div>
+    </div>
+</div>

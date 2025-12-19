@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    background: #0f0f0f;
+    color: #eaeaea
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 70px
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px
+}
+
+.logo span {
+    color: #c8a24a
+}
+
+.navbar a {
+    color: #eaeaea;
+    margin-left: 20px;
+    text-decoration: none
+}
+
+.cta {
+    border: 1px solid #c8a24a;
+    padding: 6px 16px
+}
+
+.hero {
+    height: 90vh;
+    background: #111;
+    display: flex;
+    align-items: center;
+    padding-left: 70px
+}
+
+.hero-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px
+}
+
+.btn-gold {
+    background: #c8a24a;
+    border: none;
+    padding: 14px 36px;
+    cursor: pointer
+}
+
+.collection {
+    padding: 80px 70px
+}
+
+.product img {
+    width: 100%;
+    max-width: 420px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .85);
+    justify-content: center;
+    align-items: center
+}
+
+.modal-content {
+    background: #111;
+    padding: 40px;
+    display: flex;
+    gap: 30px
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 28px;
+    color: #c8a24a;
+    cursor: pointer
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #c8a24a;
+    color: #111;
+    padding: 14px 22px;
+    text-decoration: none
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #111;
+    max-width: 900px;
+    width: 90%;
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+}
+
+.modal-content img {
+    width: 45%;
+    object-fit: cover;
+}
+
+.modal-info {
+    width: 55%;
+}
+
+.modal-info h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+.modal-info .price {
+    color: #c8a24a;
+    margin: 15px 0;
+}
+
+.modal-info .desc {
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+close {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #c8a24a;
+}
